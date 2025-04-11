@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web3 Dex Swap - Jupiter
+
+Web3 Dex Swap is a decentralized exchange (DEX) application built on the Solana blockchain. It leverages the [Jupiter Aggregator API](https://jup.ag/) to provide users with the best token swap rates across multiple liquidity sources. The application is designed to offer a seamless and efficient token swapping experience with a user-friendly interface.
+
+## Features
+
+- **Token Swapping**: Swap tokens on the Solana blockchain with the best rates aggregated from multiple liquidity pools.
+- **Dynamic Token Search**: Search and select tokens dynamically from a comprehensive list of supported tokens.
+- **Real-Time Quotes**: Fetch real-time quotes for token swaps, including slippage and price impact.
+- **Wallet Integration**: Connect and interact with your Solana wallet using the [Solana Wallet Adapter](https://github.com/solana-labs/wallet-adapter).
+- **Transaction Confirmation**: View transaction details and confirmations directly on [Solscan](https://solscan.io/).
+- **Optimized Performance**: Efficiently handle large token lists with search and pagination features.
 
 ## Getting Started
 
@@ -13,25 +24,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Web3-Dex-Swap---Jupiter
